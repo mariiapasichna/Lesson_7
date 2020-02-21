@@ -32,7 +32,7 @@ public class Task2 {
             System.out.println("Number of worlds: " + worlds.size());
             System.out.println("Number of chars: " + numberOfChars);
         } catch (IOException e) {
-            e.printStackTrace();
+            System.out.println("File " + fileName + " not found");
         }
     }
 }
